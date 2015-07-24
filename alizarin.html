@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		body {
+			background: #c0392b;
+		}
+
+		h1 {
+			font-size: 35px;
+			color: rgba(255, 255, 255, 0.9);
+			text-align: center;
+			line-height: 140px;
+
+		}
+
+		#buduk {
+			width: 30em;
+			height: 30em;
+			background: #e74c3c;
+			margin: 25em;
+			margin-top: 10em;
+			position: relative;
+			border-radius: 30px;
+		}
+
+		#bulet {
+			width: 20em;
+			height: 20em;
+			background: rgba(255, 255, 255, 0.1);
+			border-radius: 20em;
+			margin: 5em;
+			position: absolute;
+			top: 30px;
+		}
+
+		#contact {
+			position: absolute;
+			top: 5em;
+			right: 4em;
+		}
+
+		#kk input[type="text"]{
+			font-family: arial, sans-serif;
+			padding: 6px;
+			font-size: 1em;
+			border-radius: 1em;
+			border:2px solid white;
+			background: rgba(255, 255, 255, 0.1);
+			color: white;	
+			position: absolute;
+			left: -200px;
+			top: 35px;
+		}
+
+		#ade input[type="text"]{
+			font-family: arial, sans-serif;
+			padding: 6px;
+			font-size: 1em;
+			border-radius: 1em;
+			border:2px solid white;
+			background: rgba(255, 255, 255, 0.1);
+			color: white;	
+			position: absolute;
+			left: -200px;
+			top: -25px;
+		}
+
+		#ade input[type="text"]:hover {
+			background: #c0392b;
+		}
+
+		#kk input[type="text"]:hover {
+			background: #c0392b;
+		}
+
+		::-webkit-input-placeholder {
+   			color: white;
+		}
+
+		textarea[name="email"]{
+			padding: 12px;
+			border-radius: 12px;
+			padding-right: 36px;
+			font-family: arial, sans-serif;
+			border:2px solid white;
+			background: rgba(255, 255, 255, 0.1);
+			color: white;
+			font-size:1em;
+			position: absolute;
+			left: -211px;
+			top: 90px;
+		}
+		
+		textarea[name="email"]:hover {
+			background: #c0392b;
+		}
+
+		button {
+			padding: 15px;
+			padding-right: 35px;
+			padding-left: 30px;
+			color: white;
+			border:2px solid white;
+			color: white;
+			background: rgba(255, 255, 255, 0.1);
+			position: absolute;
+			text-transform: uppercase;
+			border-radius: 10px;
+			cursor: pointer;
+			top: 180px;
+			right: 47px;
+		}
+
+		button:hover {
+			background: #c0392b;
+			box-shadow: 3px 4px 5px #c0392b;
+		}
+		select[name="contact"] {
+			padding: 7px;
+			position: fixed;
+			background: #c0392b;
+			color: white;
+			font-size: 1em;
+			border-radius: 1rem;
+			border: 1px solid white;
+		}
+
+
+	</style>
+</head>
+<body id="hellow">
+	<select name="contact" onchange="location = this.options[this.selectedIndex].value;">
+		 <option value="change">Change Color</option>
+		 <option value="contact_us_turquoise.html">TURQUOISE</option>
+		 <option value="contact_us_green_sea.html">GREEN SEA</option>
+		 <option value="emerald.html">EMERALD</option>
+		 <option value="nephritis.html">NEPHRITIS</option>
+		 <option value="contact_us.html">PETER RIVER</option>
+		 <option value="belize.html">BELIZE HOLE</option>
+		 <option value="amethyst.html">AMETHYST</option>
+		 <option value="wisteria.html">WISTERIA</option>
+		 <option value="wet.html">WET ASPHALT</option>
+		 <option value="midnight.html">MIDNIGHT BLUE</option>
+		 <option value="sun.html">SUN FLOWER</option>
+		 <option value="orange.html">ORANGE</option>
+		 <option value="carrot.html">CARROT</option>
+		 <option value="pumpkin.html">PUMPKIN</option>
+		 <option value="alizarin.html">ALIZARIN</option>
+		 <option value="pomegranate.html">POMEGRANATE</option>
+		 <option value="clouds.html">CLOUDS</option>
+		 <option value="silver.html">SILVER</option>
+		 <option value="concrete.html">CONCRETE</option>
+		 <option value="asbestos.html">ASBESTOS</option>
+	</select>
+<div id="buduk">
+	<h1>Contact Us</h1>
+	<div id="bulet">
+		<div id="contact">
+			<p id="kk"><input type="text" name="name" placeholder=" Email"></p>
+			<p id="ade"><input type="text" name="email" placeholder=" Name"></p>
+			<p><textarea name="email" placeholder="Message"></textarea></p>
+			<button>Send</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>
